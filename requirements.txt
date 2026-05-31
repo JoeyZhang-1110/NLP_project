@@ -1,0 +1,27 @@
+# Core data / ML
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+scipy>=1.10
+
+# Data download / streaming parse of the 2.2GB sources.json
+huggingface_hub>=0.20
+ijson>=3.2
+
+# NLP / summarization / evaluation
+nltk>=3.8
+sumy>=0.11
+rouge-score>=0.1.2
+networkx>=3.0
+wordcloud>=1.9
+matplotlib>=3.7
+
+# Deep learning (TensorFlow LSTM model)
+tensorflow>=2.13
+
+# Interactive tool
+streamlit>=1.30
+
+# Notebooks
+jupyter
+ipykernel

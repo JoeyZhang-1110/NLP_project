@@ -1,0 +1,24 @@
+# Data & model artifacts (regenerate with src/data_prep.py + src/train_models.py)
+data/*.parquet
+data/*.csv
+models/*.joblib
+models/*.keras
+models/*.png
+
+# HuggingFace cache (the 2.2 GB sources.json lives here)
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Office temp/lock files & slide preview exports
+~$*
+slides/_preview/
