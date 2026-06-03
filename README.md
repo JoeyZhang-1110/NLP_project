@@ -40,8 +40,7 @@ nlpproject/
 │   ├── data_prep.py       # download + build the balanced subset  (run 1st)
 │   ├── modeling.py        # TF-IDF + NB/LogReg/SVM + Keras LSTM helpers
 │   ├── train_models.py    # train + evaluate + save all models    (run 2nd)
-│   ├── predict.py         # unified inference API (used by app + notebooks)
-│   └── build_notebooks.py # regenerates the three notebooks
+│   └── predict.py         # unified inference API (used by app + notebooks)
 ├── notebooks/
 │   ├── 01_eda.ipynb
 │   ├── 02_summarization.ipynb
@@ -49,9 +48,7 @@ nlpproject/
 ├── app/
 │   └── streamlit_app.py   # the interactive tool                  (run 3rd)
 ├── data/                  # built subset (parquet) — created by data_prep
-├── models/                # trained models + metrics — created by train_models
-└── slides/
-    └── presentation_outline.md
+└── models/                # trained models + metrics — created by train_models
 ```
 
 ## Setup
