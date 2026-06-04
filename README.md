@@ -2,6 +2,8 @@
 
 **Text Analytics Final Project · Option 2 · Northwestern University, Spring 2025**
 
+Presentation video link: https://drive.google.com/file/d/1N_w-UFbk4DbLHMOccJbpOy_WOJFEC8Wv/view?usp=drive_link
+
 An end-to-end NLP pipeline over the [Multi-LexSum](https://huggingface.co/datasets/allenai/multi_lexsum)
 dataset (9,280 expert-authored civil-rights case summaries). The project:
 
